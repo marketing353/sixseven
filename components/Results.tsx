@@ -65,12 +65,12 @@ const Results: React.FC<ResultsProps> = ({ stats, onRestart, onHome }) => {
             </div>
         </div>
 
-        {/* AI Feedback Section */}
+        {/* Feedback Section */}
         <div className="min-h-[140px] flex items-center justify-center">
             {loading ? (
                 <div className="flex flex-col items-center space-y-3">
                      <div className="w-6 h-6 border-2 border-neon-pink border-t-transparent rounded-full animate-spin"></div>
-                     <p className="text-xs text-gray-500 animate-pulse">AI is judging your skills...</p>
+                     <p className="text-xs text-gray-500 animate-pulse">Analyzing performance...</p>
                 </div>
             ) : (
                 <div className="text-center space-y-2 w-full bg-white/5 rounded-xl p-4 border border-white/10">

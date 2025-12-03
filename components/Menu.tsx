@@ -47,7 +47,7 @@ const Menu: React.FC<MenuProps> = ({ onStart, highScore }) => {
       </div>
 
       <div className="absolute bottom-6 text-gray-600 text-xs text-center max-w-md">
-        Powered by Gemini AI for post-game analysis. Enable sound for best experience.
+        Enable sound for best experience.
       </div>
     </div>
   );
